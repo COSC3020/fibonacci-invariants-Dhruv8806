@@ -27,3 +27,14 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+Each step of the array contains the Fibonacci numbers up to the position n, where n indicates how many more numbers we need to include. We initiate the process with [0,1]. Already having two Fibonacci numbers in the array, and n indicating what remains to be added. With each step, we continue to build the sequence by adding another number while ensuring the accuracy of the Fibonacci sequence. Overall, I believe that invariant ensures fibonacci numbers are generated in that correct order throughout the recursion process. 
+
+Sources Used
+
+-> TA in lab time
+
+-> https://www.geeksforgeeks.org/loop-invariant-condition-examples-sorting-algorithms/
+
+-> https://stackoverflow.com/questions/51847970/fibonacci-using-recursion
+
